@@ -1,0 +1,31 @@
+# Ignorowanie pliku .env
+.env
+
+# Ignorowanie plików systemowych
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorowanie plików wirtualnego środowiska
+venv/
+.env/
+
+# Ignorowanie plików baz danych
+*.sqlite3
+*.sql
+*.dump
+
+# Ignorowanie logów i tymczasowych danych
+*.log
+*.pot
+*.mo
+
+# Ignorowanie migracji (opcjonalnie, jeśli są generowane automatycznie)
+migrations/
+
+# Ignorowanie konfiguracji PostgreSQL
+postgresql.conf
+pg_hba.conf
+
+# Ignorowanie danych PostgreSQL (jeśli zapisane lokalnie)
+pg_data/
